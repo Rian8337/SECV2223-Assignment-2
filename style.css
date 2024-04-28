@@ -1,0 +1,248 @@
+/* #region Font */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* #endregion Font */
+
+/* css start from this line */
+html {
+    scroll-behavior: smooth;
+}
+
+/* #region Body */
+
+body {
+    margin: 0px;
+    background-color: #363b74;
+}
+
+/* #endregion Body */
+
+/* #region Header */
+header {
+    background-color: #363b74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.menu-hover:hover {
+    color: #c79dd7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.head-logo {
+    height: 100%;
+    /* padding : 100px; */
+}
+
+.image-jeff-bezos {
+    /* border: 5px solid white; */
+    margin: 0px;
+}
+
+/* #endregion Header */
+
+/* #region Content */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #673888;
+    color: white;
+    gap: 5rem;
+}
+.home-description {
+    margin: 0px;
+}
+.home-description-3 {
+    max-width: 600px;
+}
+
+#about {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #4d1b7b;
+    color: white;
+}
+
+#services {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #673888;
+    color: white;
+}
+
+#portofolio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #4d1b7b;
+    color: white;
+}
+.title-portofolio {
+    text-align: center;
+}
+.container-portofolio {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.card-portofolio {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #c79dd7;
+}
+
+#contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #673888;
+    color: white;
+}
+
+/* #endregion Content */
+
+/* #region Footer */
+
+footer {
+    background-color: #363b74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+/* #endregion Footer */
