@@ -237,21 +237,12 @@ a {
     grid-area: b3;
 }
 
-#services {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-    background-color: #673888;
-    color: white;
-}
-
 #portofolio {
     display: grid;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    background-color: #4d1b7b;
+    background-color: #673888;
     color: white;
 }
 
@@ -278,7 +269,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    background-color: #673888;
+    background-color: #4d1b7b;
     color: white;
 }
 
