@@ -157,7 +157,7 @@ a {
     /* padding : 100px; */
 }
 
-.image-jeff-bezos {
+.image-jeff-bezos-header {
     /* border: 5px solid white; */
     margin: 0px;
 }
@@ -165,12 +165,12 @@ a {
 /* #endregion Header */
 
 /* #region Content */
+
 #home {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background-color: #673888;
     color: white;
     gap: 5rem;
 }
@@ -183,13 +183,23 @@ a {
     max-width: 600px;
 }
 
-#about {
+/* Content section */
+.content > div {
     display: grid;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    background-color: #4d1b7b;
     color: white;
+}
+
+/* Odd content section */
+.content > div:nth-child(2n + 1) {
+    background-color: #673888;
+}
+
+/* Even content section */
+.content > div:nth-child(2n) {
+    background-color: #4d1b7b;
 }
 
 .title-about {
@@ -214,54 +224,30 @@ a {
     color: #4d1b7b;
 }
 
-.box1-about {
+.box-about {
+    display: grid;
+    gap: 10px;
+}
+
+.box-about-paragraph {
+    text-align: justify;
+}
+
+.box1 {
     grid-area: b1;
-    display: grid;
-    gap: 10px;
-}
-.box1-about-paragraph {
-    text-align: justify;
 }
 
-.image-jeff-bezos-early-life {
-    border-radius: 10px;
-    border: 5px solid #4d1b7b;
-    max-width: 500px;
-}
-
-.box2-about {
+.box2 {
     grid-area: b2;
-    display: grid;
-    gap: 10px;
-}
-.box2-about-paragraph {
-    text-align: justify;
-}
-.image-jeff-bezos-to-sea {
-    max-width: 350px;
-    border-radius: 10px;
-    border: 5px solid #4d1b7b;
-}
-.box3-about {
-    grid-area: b3;
-    display: grid;
 }
 
-.box3-about-paragraph {
-    text-align: justify;
+.box3 {
+    grid-area: b3;
 }
-.image-jeff-bezos-amazon {
-    max-width: 350px;
+
+.image-jeff-bezos-content {
     border-radius: 10px;
     border: 5px solid #4d1b7b;
-}
-#portofolio {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-    background-color: #673888;
-    color: white;
 }
 
 .title-portofolio {
@@ -280,15 +266,6 @@ a {
     width: 300px;
     height: 400px;
     background-color: #c79dd7;
-}
-
-#contact {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-    background-color: #4d1b7b;
-    color: white;
 }
 
 /* #endregion Content */
