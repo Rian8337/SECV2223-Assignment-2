@@ -132,6 +132,7 @@ header {
     padding: 10px;
     color: white;
     width: 100%;
+    height: 10vh;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -250,3 +251,70 @@ footer {
 }
 
 /* #endregion Footer */
+
+/* #region Side-menu */
+
+.side-menu {
+    width: max(10%, 15em);
+    position: fixed;
+    height: 80vh;
+    top: 15vh;
+    z-index: 1;
+    background-color: #21286f;
+    color: white;
+}
+
+.side-menu-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.side-menu-content-container {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 500ms;
+    padding: 0 0.5em;
+}
+
+.side-menu-content-container:hover {
+    opacity: 1;
+}
+
+.side-menu-arrow {
+    cursor: default;
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    transform: translateY(-50%);
+}
+
+.side-menu.left {
+    left: min(-8%, -12em);
+    transition: left 500ms;
+}
+
+.side-menu.left:hover {
+    left: 0;
+}
+
+.side-menu-arrow.left {
+    right: 2.5%;
+}
+
+.side-menu.right {
+    right: min(-8%, -12em);
+    transition: right 500ms;
+}
+
+.side-menu.right:hover {
+    right: 0;
+}
+
+.side-menu-arrow.right {
+    left: 2.5%;
+}
+
+/* #endregion Side-menu */
