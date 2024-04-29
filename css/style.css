@@ -121,6 +121,11 @@ body {
     background-color: #363b74;
 }
 
+/* Anchor tag */
+a:hover {
+    color: #c79dd7; /* Change text color upon hover */
+}
+
 /* #endregion Body */
 
 /* #region Header */
@@ -136,10 +141,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
-}
-
-.menu-hover:hover {
-    color: #c79dd7;
 }
 
 a {
@@ -368,11 +369,6 @@ footer {
 /* Specific style for right side menu arrow */
 .side-menu-arrow.right {
     left: 2.5%; /* Place arrow on the left side of the side menu */
-}
-
-/* Side menu item */
-.side-menu-item:hover {
-    color: #c79dd7; /* Change text color upon hover */
 }
 
 /* #endregion Side-menu */
