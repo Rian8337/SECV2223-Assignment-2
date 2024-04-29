@@ -370,4 +370,9 @@ footer {
     left: 2.5%; /* Place arrow on the left side of the side menu */
 }
 
+/* Side menu item */
+.side-menu-item:hover {
+    color: #c79dd7; /* Change text color upon hover */
+}
+
 /* #endregion Side-menu */
