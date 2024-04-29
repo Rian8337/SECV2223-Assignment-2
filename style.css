@@ -256,7 +256,10 @@ footer {
 
 /* Base side menu class */
 .side-menu {
-    width: max(10%, 15em); /* Ensure the width does  */
+    width: max(
+        10%,
+        15em
+    ); /* Ensure the width does not consume the entire screen */
     position: fixed; /* Make the position fixed to the screen so that it follows scroll */
     height: 80vh; /* 80% viewport height */
     top: 15vh; /* 15% viewport height down so that it does not overlap with the header */
