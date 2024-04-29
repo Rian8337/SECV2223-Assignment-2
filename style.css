@@ -231,12 +231,30 @@ a {
 
 .box2-about {
     grid-area: b2;
+    display: grid;
+    gap: 10px;
 }
-
+.box2-about-paragraph {
+    text-align: justify;
+}
+.image-jeff-bezos-to-sea {
+    max-width: 350px;
+    border-radius: 10px;
+    border: 5px solid #4d1b7b;
+}
 .box3-about {
     grid-area: b3;
+    display: grid;
 }
 
+.box3-about-paragraph {
+    text-align: justify;
+}
+.image-jeff-bezos-amazon {
+    max-width: 350px;
+    border-radius: 10px;
+    border: 5px solid #4d1b7b;
+}
 #portofolio {
     display: grid;
     justify-content: center;
