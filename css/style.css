@@ -195,12 +195,12 @@ a {
 
 /* Odd content section */
 .content > div:nth-child(2n + 1) {
-    background-color: #673888;
+    background-color: #4d1b7b;
 }
 
 /* Even content section */
 .content > div:nth-child(2n) {
-    background-color: #4d1b7b;
+    background-color: #673888;
 }
 
 .title-about {
