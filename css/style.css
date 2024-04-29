@@ -268,6 +268,8 @@ a {
 .title-portofolio {
     text-align: center;
 }
+.title-card-portofolio {
+}
 
 .container-portofolio {
     display: flex;
@@ -278,16 +280,37 @@ a {
 
 .card-portofolio {
     border-radius: 10px;
+    display: grid;
+    gap: 15px;
+    padding: 20px;
     width: 300px;
-    height: 400px;
+    height: 500px;
     background-color: #673888;
+    transition: all 0.5s ease;
 }
 .card-portofolio:hover {
-    background-color: #ac80cb;
+    background-color: #c65bcf;
     color: #371e48;
-    transition-duration: 500ms;
+    height: 510px;
 }
-
+.image-portfolio {
+    width: 300px;
+    border-radius: 10px;
+    place-self: center;
+}
+.explanation-portfolio {
+    text-align: justify;
+}
+.button-portfolio {
+    text-decoration: none;
+    place-self: flex-end;
+}
+.card-portofolio a {
+    color: pink;
+}
+.card-portofolio a:hover {
+    color: #10439f;
+}
 /* #endregion Content */
 
 /* #region Footer */
