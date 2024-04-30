@@ -117,7 +117,9 @@ html {
 /* #region Body */
 
 body {
-    margin: 0px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: #363b74;
 }
 
@@ -196,16 +198,18 @@ a {
 
 /* Odd content section */
 .content > div:nth-child(2n + 1) {
-    background-color: #4d1b7b;
+    background-image: linear-gradient(to bottom, #310d52, #673888);
 }
 
 /* Even content section */
 .content > div:nth-child(2n) {
-    background-color: #673888;
+    background-image: linear-gradient(to bottom, #673888, #310d52);
 }
+
 #about {
     scroll-margin-top: 12vh;
 }
+
 .title-about {
     text-align: center;
 }
