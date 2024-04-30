@@ -228,7 +228,8 @@ a {
 .box {
     background-color: #4d1b7b;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: solid 2px white;
     color: white;
 }
 
